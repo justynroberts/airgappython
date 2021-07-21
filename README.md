@@ -33,3 +33,8 @@ Distributing these, and running `pip install *` on the directory worked for me.
 The dockerfile contains a flask app, but that was just for testing. Feel free to modify or add
 
 If you do use the  dockerfile:
+
+`docker build -t airgap-instana .`
+`docker run airgap-instana`
+
+Any feedback welcome
